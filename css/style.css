@@ -1,5 +1,6 @@
+/*----------------Tags----------------*/
 body {
-    background-color: aquamarine;
+    background-color: #69a0c7;
 }
 
 hr {
@@ -11,5 +12,21 @@ hr {
 }
  
 h3, h4 {
-    color: gray;
+    color: whitesmoke;
+}
+
+
+/*----------------Classes----------------*/
+
+
+/*----------------Buttons----------------*/
+.buttons {
+    margin: 10px;
+    padding:  10px;
+    background-color: skyblue;
+    color: white;
+}
+
+.buttons:hover {
+   color: red;
 }
