@@ -1,0 +1,97 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1em;
+    color: #008B84;
+    
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 50px auto 50px auto;
+    width: 50%;
+}
+
+
+p {
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.3em;
+    color: black;
+    top: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.top-cloud {
+    position: relative;
+    height: 150px;
+    top: 10px;
+    left: 250px;
+}
+
+.bottom-cloud {
+    position: relative;
+    height: 150px;
+    right: 250px;
+}
+
+.mountain-img {
+    position: relative;
+    top:6px;
+}
+
+
+
+.top-container {
+    display: block;
+    width: 100%;
+    background-color: #77d8d8;
+    position: relative;
+}
+
+.middle-container {
+    height: auto;
+}
+
+.profile {
+    width: 60%;
+    margin: auto;
+}
+
+.skills {
+    background-color: #77d8d8;
+}
+.skill-row_a {
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row_b {
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+    text-align: right;
+    line-height: 2;
+}
+
+.htmlcss_logo {
+    width: 10%;
+    float: left;
+    margin-right: 20px
+}
+
+.javascript_logo {
+    width: 10%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.bottom-container {
+}
+
