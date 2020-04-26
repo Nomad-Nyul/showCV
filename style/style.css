@@ -13,7 +13,6 @@ h1 {
     width: 50%;
 }
 
-
 p {
     font-family: 'Comic Neue', cursive;
     font-size: 1.3em;
@@ -22,7 +21,6 @@ p {
     width: 100%;
     margin: auto;
 }
-
 
 .top-cloud {
     position: relative;
@@ -40,9 +38,8 @@ p {
 .mountain-img {
     position: relative;
     top:6px;
+    width: 100%;
 }
-
-
 
 .top-container {
     display: block;
@@ -91,7 +88,56 @@ p {
     margin-left: 30px;
 }
 
-
-.bottom-container {
+.code_descriptionl {
+    clear: left;
+}
+.code_descriptionr {
+    clear: right;
 }
 
+.contact-me-p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    box-shadow: 0px 10px 14px -7px #276873;
+    border-radius:8px;
+    text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    background-color: #77d8d8;
+    color: #008B84;
+    padding: 4px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.btn:hover{
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: #008B84;
+    font-weight:bold;
+    color: #77d8d8;
+    padding: 4px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.btn:active{
+    position:relative;
+	top:1px;
+}
+
+.bottom-container {
+    margin: 40px;
+    font-size: 30px;
+}
+
+
+
+/*For mobil and Tablet */
+
+@media screen and (max-width: 480px) {
+   h1{
+        font-size: 30px;
+  }
+}
